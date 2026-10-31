@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# real tracker exports (company data) never go into git
+data/imports/
+
+# generated outputs
+reports/*.db
+reports/*.png
+reports/report.md
+reports/*.json
+
+# deepeval local cache
+.deepeval/
+.deepeval_telemetry.txt

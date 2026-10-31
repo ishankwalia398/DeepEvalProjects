@@ -1,0 +1,4 @@
+# Optional: real Anthropic provider and the DeepEval cross-check layer.
+# OpenRouter uses the stdlib HTTP client and needs no extra package.
+anthropic>=0.40
+deepeval>=2.0
